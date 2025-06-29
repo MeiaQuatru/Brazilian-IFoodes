@@ -1,0 +1,10 @@
+{
+	"records.precipice_stereo":{
+		"sounds":[
+			{
+				"name": "brazilianifoodes:aria_math_forro",
+				"stream":true
+			}
+		]
+	}
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "brazilianifoodes:item/maca_do_amor_de_chocolate"
+    }
+}

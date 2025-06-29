@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "brazilianifoodes:item/mandioca_frita_na_manteiga"
+    }
+}

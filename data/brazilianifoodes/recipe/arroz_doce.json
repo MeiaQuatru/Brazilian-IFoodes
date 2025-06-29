@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "minecraft:command_block",
+    "minecraft:wheat",
     "minecraft:milk_bucket",
     "minecraft:bowl"
   ],
