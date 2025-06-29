@@ -1,8 +1,8 @@
 {
-	"disco_musical.aria_math_forro":{
+	"records.aria_math_forro":{
 		"sounds":[
 			{
-				"name": "brazilianifoodes:aria_math_forro",
+				"name": "brazilianifoodes:records/aria_math_forro",
 				"stream":true
 			}
 		]
