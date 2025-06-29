@@ -1,0 +1,23 @@
+{
+  "id": "brazilianifoodes:leite_de_coco",
+  "vanillaItem": "minecraft:paper",
+  "itemModel": "brazilianifoodes:leite_de_coco",
+  "itemResource": {
+    "models": {
+      "default": "brazilianifoodes:item/leite_de_coco"
+    }
+  },
+  "components": {
+    "minecraft:food": {
+        "nutrition": 5,
+        "saturation": 5
+    },
+    "minecraft:consumable": {
+        "on_consume_effects": [
+            {
+                "type": "minecraft:clear_all_effects"
+            }
+        ]
+    }
+  }
+}
