@@ -12,7 +12,6 @@
         "nutrition": 5,
         "saturation": 5
     },
-    "minecraft:consumable": {
-       
+    "minecraft:consumable": {}
   }
-} 
+}
