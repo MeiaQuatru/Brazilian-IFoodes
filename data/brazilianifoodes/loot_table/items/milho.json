@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {},
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 0.4
+                },
+                "minecraft:item_model": "brazilianifoodes:milho",
+                "minecraft:item_name": "Milho",
+                "minecraft:max_stack_size": 64
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

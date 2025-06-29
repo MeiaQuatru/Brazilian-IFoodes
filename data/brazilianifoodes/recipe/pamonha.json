@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:structure_block",
+    "minecraft:structure_block",
+    "minecraft:milk_bucket",
+    "minecraft:kelp"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "components": {
+      "minecraft:consumable": {},
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 0.4
+      },
+      "minecraft:item_model": "brazilianifoodes:pamonha",
+      "minecraft:item_name": "Pamonha",
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

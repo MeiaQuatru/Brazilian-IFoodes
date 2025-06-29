@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:command_block",
+    "minecraft:milk_bucket",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "components": {
+      "minecraft:consumable": {},
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 1.8
+      },
+      "minecraft:item_model": "brazilianifoodes:arroz_doce",
+      "minecraft:item_name": "Arroz Doce",
+      "minecraft:max_stack_size": 16,
+      "minecraft:use_remainder": {
+        "id": "minecraft:bowl"
+      }
+    },
+    "count": 2
+  }
+}

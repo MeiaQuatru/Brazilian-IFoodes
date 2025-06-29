@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:jigsaw",
+    "minecraft:jigsaw",
+    "minecraft:pumpkin_pie"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "components": {
+      "minecraft:consumable": {},
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 1.8
+      },
+      "minecraft:item_model": "brazilianifoodes:cuscuz",
+      "minecraft:item_name": "Cuscuz",
+      "minecraft:max_stack_size": 16,
+      "minecraft:use_remainder": {
+        "id": "minecraft:bowl"
+      }
+    }
+  }
+}

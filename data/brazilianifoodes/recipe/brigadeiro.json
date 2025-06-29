@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:repeating_command_block",
+    "minecraft:cocoa_beans",
+    "minecraft:suger",
+    "minecraft:paper"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "components": {
+      "minecraft:consumable": {},
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 1.8
+      },
+      "minecraft:item_model": "brazilianifoodes:brigadeiro",
+      "minecraft:item_name": "Brigadeiro",
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

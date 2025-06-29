@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:structure_block",
+    "minecraft:stick"
+  ],
+  "result": {
+    "id": "minecraft:structure_void",
+    "components": {
+      "minecraft:consumable": {},
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 1.8
+      },
+      "minecraft:item_model": "brazilianifoodes:milho_no_graveto",
+      "minecraft:item_name": "Milho no Graveto",
+      "minecraft:max_stack_size": 16,
+      "minecraft:use_remainder": {
+        "id": "minecraft:stick"
+      }
+    }
+  }
+}

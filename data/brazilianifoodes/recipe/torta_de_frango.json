@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cooked_chicken",
+    "minecraft:wheat",
+    "minecraft:milk_bucket"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "components": {
+      "minecraft:consumable": {},
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 0.4
+      },
+      "minecraft:item_model": "brazilianifoodes:torta_de_frango",
+      "minecraft:item_name": "Torta de Frango",
+      "minecraft:max_stack_size": 1,
+      "minecraft:max_damage": 4,
+      "minecraft:use_remainder": {
+        "id": "minecraft:beetroot_soup",
+        "components": {
+          "minecraft:consumable": {},
+          "minecraft:food": {
+            "nutrition": 2,
+            "saturation": 0.4
+          },
+          "minecraft:item_model": "brazilianifoodes:torta_de_frango",
+          "minecraft:item_name": "Torta de Frango",
+          "minecraft:max_stack_size": 1,
+          "minecraft:damage": 1,
+          "minecraft:max_damage": 4,
+          "minecraft:use_remainder": {
+            "id": "minecraft:beetroot_soup",
+            "components": {
+              "minecraft:consumable": {},
+              "minecraft:food": {
+                "nutrition": 2,
+                "saturation": 0.4
+              },
+              "minecraft:item_model": "brazilianifoodes:torta_de_frango",
+              "minecraft:item_name": "Torta de Frango",
+              "minecraft:max_stack_size": 1,
+              "minecraft:damage": 2,
+              "minecraft:max_damage": 4,
+              "minecraft:use_remainder": {
+                "id": "minecraft:beetroot_soup",
+                "components": {
+                  "minecraft:consumable": {},
+                  "minecraft:food": {
+                    "nutrition": 2,
+                    "saturation": 0.4
+                  },
+                  "minecraft:item_model": "brazilianifoodes:torta_de_frango",
+                  "minecraft:item_name": "Torta de Frango",
+                  "minecraft:max_stack_size": 1,
+                  "minecraft:damage": 3,
+                  "minecraft:max_damage": 4
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

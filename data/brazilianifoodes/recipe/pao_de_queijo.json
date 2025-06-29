@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:milk_bucket",
+    "minecraft:bread",
+    "#minecraft:eggs"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "components": {
+      "minecraft:consumable": {},
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation": 9.6
+      },
+      "minecraft:item_model": "brazilianifoodes:pao_de_queijo",
+      "minecraft:item_name": "Pão de Queijo",
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

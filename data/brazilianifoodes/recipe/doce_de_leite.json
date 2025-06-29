@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:milk_bucket",
+    "minecraft:sugar",
+    "minecraft:sugar"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "components": {
+      "minecraft:consumable": {},
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 0.8
+      },
+      "minecraft:item_model": "brazilianifoodes:doce_de_leite",
+      "minecraft:item_name": "Coce de Leite",
+      "minecraft:max_stack_size": 16,
+      "minecraft:use_remainder": {
+        "id": "minecraft:bowl"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot_soup",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:strength",
+                          "duration": 600
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 1.4
+                },
+                "minecraft:item_model": "brazilianifoodes:pacoca",
+                "minecraft:item_name": "Paçoca",
+                "minecraft:max_stack_size": 64
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

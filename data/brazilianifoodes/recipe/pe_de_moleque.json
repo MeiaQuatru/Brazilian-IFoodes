@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cocoa_beans",
+    "minecraft:cocoa_beans",
+    "minecraft:milk_bucket",
+    "minecraft:sugar"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "components": {
+      "minecraft:consumable": {},
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 1.4
+      },
+      "minecraft:item_model": "brazilianifoodes:pe_de_moleque",
+      "minecraft:item_name": "Pé de Moleque",
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:chain_command_block",
+    "minecraft:bamboo"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "components": {
+      "minecraft:consumable": {
+        "animation": "drink",
+        "sound": "minecraft:entity.generic.drink"
+      },
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 9.6
+      },
+      "minecraft:item_model": "brazilianifoodes:bebida_de_coco",
+      "minecraft:item_name": "Bebida de Coco",
+      "minecraft:max_stack_size": 1,
+      "minecraft:max_damage": 4,
+      "minecraft:use_remainder": {
+        "id": "minecraft:beetroot_soup",
+        "components": {
+          "minecraft:consumable": {
+            "animation": "drink",
+            "sound": "minecraft:entity.generic.drink"
+          },
+          "minecraft:food": {
+            "nutrition": 2,
+            "saturation": 9.6
+          },
+          "minecraft:item_model": "brazilianifoodes:bebida_de_coco",
+          "minecraft:item_name": "Bebida de Coco",
+          "minecraft:max_stack_size": 1,
+          "minecraft:damage": 1,
+          "minecraft:max_damage": 4,
+          "minecraft:use_remainder": {
+            "id": "minecraft:beetroot_soup",
+            "components": {
+              "minecraft:consumable": {
+                "animation": "drink",
+                "sound": "minecraft:entity.generic.drink"
+              },
+              "minecraft:food": {
+                "nutrition": 2,
+                "saturation": 9.6
+              },
+              "minecraft:item_model": "brazilianifoodes:bebida_de_coco",
+              "minecraft:item_name": "Bebida de Coco",
+              "minecraft:max_stack_size": 1,
+              "minecraft:damage": 2,
+              "minecraft:max_damage": 4,
+              "minecraft:use_remainder": {
+                "id": "minecraft:beetroot_soup",
+                "components": {
+                  "minecraft:consumable": {
+                    "animation": "drink",
+                    "sound": "minecraft:entity.generic.drink"
+                  },
+                  "minecraft:food": {
+                    "nutrition": 2,
+                    "saturation": 9.6
+                  },
+                  "minecraft:item_model": "brazilianifoodes:bebida_de_coco",
+                  "minecraft:item_name": "Bebida de Coco",
+                  "minecraft:max_stack_size": 1,
+                  "minecraft:damage": 3,
+                  "minecraft:max_damage": 4
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

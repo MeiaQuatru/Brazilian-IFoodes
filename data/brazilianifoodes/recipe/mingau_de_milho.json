@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:structure_block",
+    "minecraft:structure_block",
+    "minecraft:milk_bucket",
+    "minecraft:pumpkin_pie",
+    "minecraft:dried_kelp"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "components": {
+      "minecraft:consumable": {},
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 1.4
+      },
+      "minecraft:item_model": "brazilianifoodes:mingau_de_milho",
+      "minecraft:item_name": "Mingau de Milho",
+      "minecraft:max_stack_size": 16,
+      "minecraft:use_remainder": {
+        "id": "minecraft:bowl"
+      }
+    }
+  }
+}

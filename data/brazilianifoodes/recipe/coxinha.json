@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:chicken",
+    "minecraft:milk_bucket",
+    "minecraft:pumpkin_pie"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "components": {
+      "minecraft:consumable": {},
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 0.4
+      },
+      "minecraft:item_model": "brazilianifoodes:coxinha",
+      "minecraft:item_name": "Coxinha",
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

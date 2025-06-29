@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:structure_block",
+    "minecraft:pumpkin_pie"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "components": {
+      "minecraft:consumable": {},
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 1.8
+      },
+      "minecraft:item_model": "brazilianifoodes:milho_amanteigado",
+      "minecraft:item_name": "Milho Amanteigado",
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

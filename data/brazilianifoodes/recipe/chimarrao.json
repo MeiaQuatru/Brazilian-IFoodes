@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bush",
+    "minecraft:water_bucket",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "components": {
+      "minecraft:consumable": {
+        "animation": "drink",
+        "sound": "minecraft:entity.generic.drink"
+      },
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 0.4
+      },
+      "minecraft:item_model": "brazilianifoodes:chimarrao",
+      "minecraft:item_name": "Chimarrão",
+      "minecraft:max_stack_size": 1,
+      "minecraft:max_damage": 4,
+      "minecraft:use_remainder": {
+        "id": "minecraft:beetroot_soup",
+        "components": {
+          "minecraft:consumable": {
+            "animation": "drink",
+            "sound": "minecraft:entity.generic.drink"
+          },
+          "minecraft:food": {
+            "nutrition": 2,
+            "saturation": 0.4
+          },
+          "minecraft:item_model": "brazilianifoodes:chimarrao",
+          "minecraft:item_name": "Chimarrão",
+          "minecraft:max_stack_size": 1,
+          "minecraft:damage": 1,
+          "minecraft:max_damage": 4,
+          "minecraft:use_remainder": {
+            "id": "minecraft:beetroot_soup",
+            "components": {
+              "minecraft:consumable": {
+                "animation": "drink",
+                "sound": "minecraft:entity.generic.drink"
+              },
+              "minecraft:food": {
+                "nutrition": 2,
+                "saturation": 0.4
+              },
+              "minecraft:item_model": "brazilianifoodes:chimarrao",
+              "minecraft:item_name": "Chimarrão",
+              "minecraft:max_stack_size": 1,
+              "minecraft:damage": 2,
+              "minecraft:max_damage": 4,
+              "minecraft:use_remainder": {
+                "id": "minecraft:beetroot_soup",
+                "components": {
+                  "minecraft:consumable": {
+                    "animation": "drink",
+                    "sound": "minecraft:entity.generic.drink"
+                  },
+                  "minecraft:food": {
+                    "nutrition": 2,
+                    "saturation": 0.4
+                  },
+                  "minecraft:item_model": "brazilianifoodes:chimarrao",
+                  "minecraft:item_name": "Chimarrão",
+                  "minecraft:max_stack_size": 1,
+                  "minecraft:damage": 3,
+                  "minecraft:max_damage": 4
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
