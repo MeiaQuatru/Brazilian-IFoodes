@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "minecraft:chicken",
+    "minecraft:cooked_chicken",
     "minecraft:milk_bucket",
     "minecraft:pumpkin_pie"
   ],
@@ -16,7 +16,8 @@
       },
       "minecraft:item_model": "brazilianifoodes:coxinha",
       "minecraft:item_name": "Coxinha",
-      "minecraft:max_stack_size": 64
+      "minecraft:max_stack_size": 64,
+      "!minecraft:use_remainder": {}
     }
   }
 }

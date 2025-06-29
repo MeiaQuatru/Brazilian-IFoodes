@@ -17,7 +17,10 @@
                 },
                 "minecraft:item_model": "brazilianifoodes:maca_do_amor",
                 "minecraft:item_name": "Maçã do Amor",
-                "minecraft:max_stack_size": 16
+                "minecraft:max_stack_size": 16,
+                "minecraft:use_remainder": {
+                  "id": "minecraft:stick"
+                }
               }
             }
           ]

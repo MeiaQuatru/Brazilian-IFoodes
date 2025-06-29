@@ -25,6 +25,7 @@
       "minecraft:item_name": "Bolo de Cenoura",
       "minecraft:max_stack_size": 1,
       "minecraft:max_damage": 7,
+      "minecraft:rarity": "common",
       "minecraft:use_remainder": {
         "id": "minecraft:command_block_minecart",
         "components": {
@@ -38,6 +39,7 @@
           "minecraft:max_stack_size": 1,
           "minecraft:damage": 2,
           "minecraft:max_damage": 7,
+          "minecraft:rarity": "common",
           "minecraft:use_remainder": {
             "id": "minecraft:command_block_minecart",
             "components": {
@@ -51,6 +53,7 @@
               "minecraft:max_stack_size": 1,
               "minecraft:damage": 3,
               "minecraft:max_damage": 7,
+              "minecraft:rarity": "common",
               "minecraft:use_remainder": {
                 "id": "minecraft:command_block_minecart",
                 "components": {
@@ -64,6 +67,7 @@
                   "minecraft:max_stack_size": 1,
                   "minecraft:damage": 4,
                   "minecraft:max_damage": 7,
+                  "minecraft:rarity": "common",
                   "minecraft:use_remainder": {
                     "id": "minecraft:command_block_minecart",
                     "components": {
@@ -77,6 +81,7 @@
                       "minecraft:max_stack_size": 1,
                       "minecraft:damage": 5,
                       "minecraft:max_damage": 7,
+                      "minecraft:rarity": "common",
                       "minecraft:use_remainder": {
                         "id": "minecraft:command_block_minecart",
                         "components": {
@@ -89,7 +94,9 @@
                           "minecraft:item_name": "Bolo de Cenoura",
                           "minecraft:max_stack_size": 1,
                           "minecraft:damage": 6,
-                          "minecraft:max_damage": 7
+                          "minecraft:max_damage": 7,
+                          "minecraft:rarity": "common",
+                          "!minecraft:use_remainder": {}
                         }
                       }
                     }

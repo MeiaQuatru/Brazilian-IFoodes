@@ -15,7 +15,8 @@
       },
       "minecraft:item_model": "brazilianifoodes:bolinho_de_mandioca",
       "minecraft:item_name": "Bolinho de Mandioca",
-      "minecraft:max_stack_size": 64
+      "minecraft:max_stack_size": 64,
+      "!minecraft:use_remainder": {}
     }
   }
 }

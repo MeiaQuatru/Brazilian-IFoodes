@@ -29,7 +29,8 @@
                 },
                 "minecraft:item_model": "brazilianifoodes:cocada",
                 "minecraft:item_name": "Cocada",
-                "minecraft:max_stack_size": 64
+                "minecraft:max_stack_size": 64,
+                "!minecraft:use_remainder": {}
               }
             }
           ]
