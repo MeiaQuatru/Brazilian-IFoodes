@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "brazilianifoodes:brigadeiro",
+                "minecraft:rarity": "uncommon",
+                "minecraft:jukebox_playable": "brazilianifoodes:aria_math_forro"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

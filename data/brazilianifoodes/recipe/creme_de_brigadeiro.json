@@ -2,6 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
+    "minecraft:bowl",
     "minecraft:cocoa_beans",
     "minecraft:cocoa_beans",
     "minecraft:pumpkin_pie",

@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "brazilianifoodes:chapeu_de_palha",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "brazilianifoodes:chapeu_de_palha",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:break_sound": "minecraft:block.grass.break",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": "minecraft:block.grass.place",
+                  "asset_id": "brazilianifoodes:chapeu_de_palha"
+                },
+                "minecraft:item_name": "Chapéu de Palha",
+                "minecraft:max_damage": 132,
+                "minecraft:repairable": {
+                  "items": "minecraft:wheat"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
