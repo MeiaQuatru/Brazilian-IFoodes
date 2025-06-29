@@ -1,0 +1,18 @@
+{
+  "id": "brazilianifoodes:creme_de_coco",
+  "vanillaItem": "minecraft:paper",
+  "itemModel": "brazilianifoodes:creme_de_coco",
+  "itemResource": {
+    "models": {
+      "default": "brazilianifoodes:item/creme_de_coco"
+    }
+  },
+  "components": {
+    "minecraft:food": {
+        "nutrition": 5,
+        "saturation": 5
+    },
+    "minecraft:consumable": {
+       
+  }
+} 
